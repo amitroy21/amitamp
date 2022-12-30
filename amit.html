@@ -1,0 +1,73 @@
+
+<html>
+<head>
+<title>second assignment</title>
+</head>
+<body bgcolor="">
+<center>
+<h1>Operational Amplifier Basics<h1>
+</center>
+<h3>An Operational Amplifier, or op-amp for short, is fundamentally a voltage amplifying device designed to be used with external feedback components such as resistors and capacitors between its output and input terminals. These feedback components determine the resulting function or “operation” of the amplifier and by virtue of the different feedback configurations whether resistive, capacitive or both, the amplifier can perform a variety of different operations, giving rise to its name of “Operational Amplifier”.
+
+An Operational Amplifier is basically a three-terminal device which consists of two high impedance inputs. One of the inputs is called the Inverting Input, marked with a negative or “minus” sign, ( – ). The other input is called the Non-inverting Input, marked with a positive or “plus” sign ( + ).
+
+A third terminal represents the operational amplifiers output port which can both sink and source either a voltage or a current. In a linear operational amplifier, the output signal is the amplification factor, known as the amplifiers gain ( A ) multiplied by the value of the input signal and depending on the nature of these input and output signals, there can be four different classifications of operational amplifier gain.
+<h2>Operational Amplifier Basics of Classification
+</h2>
+<h3>Voltage  – Voltage “in” and Voltage “out”<br>                                
+Current  – Current “in” and Current “out”<br>
+Transconductance  – Voltage “in” and Current “out”<br>
+Transresistance  – Current “in” and Voltage “out”<br>
+<br>
+<br>
+<p>Since most of the circuits dealing with operational amplifiers are voltage amplifiers, we will limit the tutorials in<br> this section to voltage amplifiers only, (Vin and Vout).
+
+The output voltage signal from an Operational Amplifier <br>is the difference between the signals being applied to its two individual inputs. In other words, an op-amps output<br> signal is the difference between the two input signals as the input stage of an Operational Amplifier is in fact <br>a differential amplifier as shown below.</p>
+<h2>Operational Amplifier Basics – The Differential Amplifier</h2>
+<br><h3>The circuit below shows a generalized form of a differential amplifier with two inputs marked V1 and V2. <br>The two identical transistors TR1 and TR2 are both biased at the same operating point with their emitters <br>connected together and returned to the common rail, -Vee by way of resistor Re.
+<img src="C:\Users\Hp\Documents\electronics asignment 2\opamp-opamp52.gif" alt="image" align="left" height="200" wedth="200"</img>
+The circuit <br>operates from a dual supply +Vcc and -Vee which ensures a constant supply. The voltage that appears <br>at the output, Vout of the amplifier is the difference between the two input signals as the two base inputs<br> are in anti-phase with each other.
+
+So as the forward bias of transistor, TR1 is increased, the forward bias <br>of transistor TR2 is reduced and vice versa. Then if the two transistors are perfectly matched, the current <br>flowing through the common emitter resistor, Re will remain constant.
+
+Like the input signal, the output <br>signal is also balanced and since the collector voltages either swing in opposite directions (anti-phase) or in<br> the same direction (in-phase) the output voltage signal, taken from between the two collectors is, assuming <br>a perfectly balanced circuit the zero difference between the two collector voltages.
+<h3><p>Like the input signal, the output signal is also balanced and since the collector voltages either swing in opposite directions (anti-phase) <br>or in the same direction (in-phase) the output voltage signal, taken from between the two collectors is, assuming a perfectly balanced <br>circuit the zero difference between the two collector voltages.</h3>
+<br>
+<p><h3>This is known as the Common Mode of Operation with the common mode gain of the amplifier being the output gain when the input is <br>zero.
+<br>
+<p>Operational Amplifiers also have one output (although there are ones with an additional differential output) of low impedance that is<br> referenced to a common ground terminal and it should ignore any common mode signals that is, if an identical signal is applied to both <br>the inverting and non-inverting inputs there should no change to the output.
+<br>
+<p>However, in real amplifiers there is always some variation and the ratio of the change to the output voltage with regards to the change in<br> the common mode input voltage is called the Common Mode Rejection Ratio or CMRR for short.
+</h3>
+<h2>Equivalent Circuit of an Ideal Operational Amplifier
+</h2>
+<img src="C:\Users\Hp\Documents\electronics asignment 2\opamp-opamp1.gif" alt="image" align="left" height="200" wedth="200"><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2 >Op-amp Parameter and Idealised Characteristic<br><br>Open Loop Gain, (Avo)</h2>
+<button>
+ <div class="box">
+<div class="mainmenu">
+<table width="100%" border="1" cellspacing="0" cellpadding="7">
+<tr style="background-color:red;font-size:large;">
+<th>Infinite –The main function of an operational amplifier is to amplify the input signal and the more open loop gain it has the better.<br> Open-loop gain is the gain of the op-amp without positive or negative feedback and for such an amplifier the gain will be infinite but typical real <br>values range from about 20,000 to 200,000.
+</th>
+</tr>
+</table>
+</div>
+</button>
+<br><h2>Input impedance, (ZIN)</h2>
+<br>
+<button>
+ <div class="box">
+<div class="mainmenu">
+<table width="100%" border="1" cellspacing="0" cellpadding="7">
+<tr style="background-color:red;font-size:large;">
+<th>Zero – The output impedance of the ideal operational amplifier is assumed to be zero acting as a perfect internal voltage source <br>with no internal resistance so that it can supply as much current as necessary to the load. This internal resistance is effectively in series with the load thereby reducing the output voltage available to the load. Real op-amps have output impedances in the 100-20kΩ.
+</th>
+</tr>
+</table>
+</div>
+</button>
+
+
+</body>
+</html>
